@@ -14,6 +14,39 @@
 
 get_header(); ?>
 
+	<div class="header__hero">
+		<div class="hero__nav">
+			<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tecline' ); ?></button>
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				) );
+			?>
+		</nav><!-- #site-navigation -->
+		</div>
+
+		<div class="hero__content">
+			<div class="hero__title">
+				<h1>DISEÑO Y DESARROLLO WEB</h1>
+				<h2 class="bold__barlow">Creamos tu página web <br> deacuerdo a tus necesidades</h2>
+				<div class="divider__hero"></div>
+				<p class="hero__services">Diseños de páginas web  ¡innovadoras! <br>
+					Somos expertos en el desarrollo de páginas web, <br> aplicaciones móviles, posicionamiento web y software a la medida.
+				</p>
+			</div>
+			
+			<div class="hero__image">
+				<figure>
+					<img src=" <?php echo bloginfo( 'template_url' ).'/img/isometric.png'; ?> " alt="">
+				</figure>
+			</div>
+			
+		</div>
+
+	</div>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -50,6 +83,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
 
 <?php
 get_sidebar();
