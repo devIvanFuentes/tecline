@@ -16,6 +16,11 @@ get_header(); ?>
 
 	<div class="header__hero">
 		<div class="hero__nav">
+			<figure class="logo__hero">
+				<?php the_custom_logo(); ?>
+				
+
+			</figure>
 			<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tecline' ); ?></button>
 			<?php
@@ -35,6 +40,9 @@ get_header(); ?>
 				<p class="hero__services">Diseños de páginas web  ¡innovadoras! <br>
 					Somos expertos en el desarrollo de páginas web, <br> aplicaciones móviles, posicionamiento web y software a la medida.
 				</p>
+				<a href="#" class="btn__showmore">
+					CONOCER MÁS
+				</a>
 			</div>
 			
 			<div class="hero__image">
@@ -43,6 +51,139 @@ get_header(); ?>
 				</figure>
 			</div>
 			
+		</div>
+
+	</div>
+
+	<div class="container">	
+		<h4 class="title__tecline bold__barlow">Diseñamos y desarrollamos experiencias dígitales enfocadas al ámbito web y móvil</h4>
+
+		<!-- servicios -->
+		<div class="tecline__services">
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+			<div class="service__card">	
+				<div class="service__title">
+					<figure>
+						<img src=" <?php echo bloginfo( 'template_url' ).'/img/devices.png'; ?>" alt="">
+					</figure>
+					<p class="bold__barlow">
+						Sitio Informativo
+					</p>
+				</div>
+
+				<div class="service__description">
+					<p>
+						Ideal para dar a conocer sus productos, servicios o actividades, con este sitio web podrá transmitir información general  acerca de su empresa, noticias, promociones, datos de contacto, etc.
+					</p>
+				</div>
+				<a href="#" class="btn__service">
+					MÁS INFORMACIÓN
+				</a>
+			</div>
+
+
+		</div>
+
+
+			
+				<h4 class="title__tecline bold__barlow">Conoce núestros últimos proyectos</h4>
 		</div>
 
 	</div>

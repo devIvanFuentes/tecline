@@ -863,6 +863,13 @@ h1,h2,h3,h4,h5{
 	font-weight: 600;
 }
 
+.container{
+	width: 90%;
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
 /*Header hero custom*/
 .header__hero{
 	width:100%;
@@ -882,6 +889,26 @@ h1,h2,h3,h4,h5{
 .hero__nav{
 	width: 100%;
 	align-self: flex-start;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+	padding:0 20px;
+}
+
+.hero__nav nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.logo__hero{
+	margin: 0;
+}
+
+.logo__hero img{
+	max-width: 100px;
 }
 
 .hero__content{
@@ -892,7 +919,7 @@ h1,h2,h3,h4,h5{
 	justify-content: space-around;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	padding:30px;
+	padding: 0 30px;
 }
 
 .hero__title{
@@ -924,4 +951,91 @@ h1,h2,h3,h4,h5{
 .hero__services{
 	font-size: 18px;
 }
+
+.btn__showmore{
+	color:#fff;
+	background:#A73524;
+	text-decoration: none;
+	padding:10px 20px;
+	border-radius: 15px 15px;
+}
+
+.btn__showmore:hover ,.btn__showmore:visited {
+	color:#fff;
+}
+
+.title__tecline{
+	font-weight: 600;
+	color:#0D3374;
+	font-size: 40px;
+	margin: 15px 0;
+}
+
 /*END hero*/
+
+/*Services*/
+
+.tecline__services{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.service__card{
+	width: 30%;
+	border:solid 1px #95989A;
+	height: 250px;
+	margin-bottom: 1em;
+}
+
+.service__card:hover{
+	-ms-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-o-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service__title{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0 15px;
+}
+
+.service__title figure{
+	width: 33%;
+}
+
+.service__title figure{
+	margin: 0;
+}
+
+.service__title p{
+	width: 70%;
+	text-align: left;
+	color: #2772F3;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+
+}
+
+.service__description{
+	margin: 0;
+	padding: 0 15px;
+}
+
+.service__description p{
+	margin: 0;
+}
+
+.btn__service{
+	float: right;
+	padding: 0 15px;
+	font-size: 13px;
+}
+
+/*END SERVICES*/
